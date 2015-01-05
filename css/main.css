@@ -153,9 +153,17 @@ div#wrapper {
 }
 
 .tree-large {
-    background-image: url('../img/mood-tree.jpg');
-    height: 279px;
+    background: url('../img/mood-tree-400.jpg') no-repeat;
+    height: 109px;
     width: 100%;
+}
+
+@media screen and (min-width: 500px) {
+    .tree-large {
+        background-image: url('../img/mood-tree.jpg');
+        height: 279px;
+        width: 100%;
+    }
 }
 
 h1 {
@@ -217,7 +225,7 @@ section {
 }
 
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 53em) {
     #menu-wrap * {
         display: inline;
     }
