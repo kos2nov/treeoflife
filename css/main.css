@@ -316,6 +316,25 @@ footer {
     float: left;
 }
 
+#prices {
+    min-width: 320px;
+}
+
+#gift-card {
+    font-size: x-large;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    padding: 20px;
+    margin: 30px 100px 30px 50px;
+    border: 2px double darkred;
+    float: right;
+}
+
+#book-online {
+    clear: both;
+}
+
+
 /* ==========================================================================
    Contact page
    ========================================================================== */
