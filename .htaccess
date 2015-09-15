@@ -449,10 +449,10 @@ FileETag None
 <IfModule mod_expires.c>
 
     ExpiresActive on
-    ExpiresDefault                                      "access plus 1 month"
+    ExpiresDefault                                      "access plus 1 day"
 
   # CSS
-    ExpiresByType text/css                              "access plus 1 year"
+    ExpiresByType text/css                              "access plus 1 week"
 
   # Data interchange
     ExpiresByType application/json                      "access plus 0 seconds"
@@ -466,10 +466,10 @@ FileETag None
     ExpiresByType text/x-component                      "access plus 1 month"
 
   # HTML
-    ExpiresByType text/html                             "access plus 0 seconds"
+    ExpiresByType text/html                             "access plus 1 day"
 
   # JavaScript
-    ExpiresByType application/javascript                "access plus 1 year"
+    ExpiresByType application/javascript                "access plus 1 week"
 
   # Manifest files
     ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
