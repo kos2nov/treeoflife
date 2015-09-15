@@ -1,7 +1,6 @@
 var toggleSection = function(sel, element) {
     var el_id = element.substr(1);
     $(sel).each(function () {
-        console.log($(this).attr('id'), el_id);
         $(this).attr('id') === el_id ? $(this).show() : $(this).hide();
     });
 };
